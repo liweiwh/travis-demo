@@ -11,6 +11,7 @@ install:
 
 script:
   - npm run build
+  - echo 'token is:'$GITHUB_TOKEN
 
 deploy:
   provider: pages
